@@ -1,5 +1,5 @@
 # Homework 0
-**Applied Data Visualization, Homework 0.**  
+**Applied Data Visualization.**  
 *This homework is due before class on Wednesday, August 23rd.*  
 
 
@@ -101,33 +101,32 @@ This is now a complete coding environment. However, we want to make use of the l
 
 Note that if you prefer, you can just use Jupyter Labs with a web-based LLM such as ChatGPT.
 
-## 3. Installing Visual Studio Code and Extensions
+## 3. Installing Visual Studio Code
 
-https://www.youtube.com/watch?v=QS_bh-3qKdw
+If you like, you can work directly in Jupyter Labs. However, we recommend that you set up Visual Studio Code to edit your notebooks. The main benefit is that you get auto-complete for function calls, and this includes LLM backed auto-complete through github co-pilot. 
 
-https://marketplace.visualstudio.com/items?itemName=ms-python.python
+You can get VS Code here: https://code.visualstudio.com/
 
-https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces
+## 4. Setting up CoPilot
 
-https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+CoPilot is a large language model (LLM) like ChatGPT that is trained on code. We will use both ChatGPT and CoPilot; they have their respective pros and cons. To set up co-pilot, you will need to (a) get a github educational license, and (b) add a few extensions. 
 
-https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter 
+To get the education account, visit https://education.github.com/
+Note that this might take a bit to be verified, and you might have to upload a student ID. 
 
+Then you should be able to access co-pilot. Here is an [introductory video for using co-pilot in jupyter](https://www.youtube.com/watch?v=QS_bh-3qKdw)
 
-Sign in to GitHub
-
-https://github.com/github-copilot/free_signup 
-
-Copilot key bindings: 
-https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
-
-Conflict with jupyter 
-
+And these are the extensions you'll need for working with copilot in jupyter. 
+* [The Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* [Codepaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
+* [Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+* [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) 
 
 
-Get an educational account. 
+You can check out copilot key bindings [here](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode). Note that they sometimes conflict with Jupyter commands.
 
 
-### 2. Self Study: Python
+
+### 4. Self Study: Python
 
 We recommend that you go through [Google's Python Tutorial](https://developers.google.com/edu/python), sections Intro, Strings, Lists, Sorting, Dicts and Files. 
